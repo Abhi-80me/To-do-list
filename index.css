@@ -55,5 +55,30 @@ button{
 }
 ul li{
     list-style: none;
+    position: relative;
+    padding:12px 8px 12px 50px ;
+}
+ul li::before{
+    content: "";
+    position: absolute;
+    background-image: url(radio.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    top: 12px;
+    left:10px;
+}
+ul li.checked{
+
+}
+ul li.checked::before{
+    content: "";
+    position: absolute;
+    background-image: url(check.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    top: 12px;
+    left:10px;
 }
     
