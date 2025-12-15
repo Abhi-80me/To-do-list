@@ -81,4 +81,22 @@ ul li.checked::before{
     top: 12px;
     left:10px;
 }
+ul li span{
+    position: absolute;
+    top: 2px;
+    right: 150px;
+    width: 40px;
+    height: 40px;
+    color: #d61717;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+ul li span:hover{
+    background: #9e9b9b;
+    border-radius: 50%;
+
+}
     
