@@ -68,9 +68,8 @@ ul li::before{
     top: 12px;
     left:10px;
 }
-ul li.checked{
 
-}
+
 ul li.checked::before{
     content: "";
     position: absolute;
